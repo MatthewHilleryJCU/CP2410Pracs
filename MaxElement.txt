@@ -1,0 +1,12 @@
+​def MaxElement(S, start):
+# Input:​ sequence S, start an integer
+# Output:​ the maximum element in the sequence
+if ​start == len(S)       
+    return ​S[start]
+else
+    max_of_rest = MaxElement(S, start + 1)
+    
+    if ​S[start] > max_of_rest then
+        return ​S[start]
+    else
+        return ​max_of_rest
