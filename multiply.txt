@@ -1,0 +1,7 @@
+Algorithm ​Multiply(m, n)
+Input:​ m, n
+Output:​ the product of m and n
+if ​n == 1
+    return ​m
+else
+    return ​m + Multiply(m, n - 1)

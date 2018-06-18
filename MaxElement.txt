@@ -1,4 +1,4 @@
-​def MaxElement(S, start):
+Algorithm MaxElement(S, start):
 # Input:​ sequence S, start an integer
 # Output:​ the maximum element in the sequence
 if ​start == len(S)       
